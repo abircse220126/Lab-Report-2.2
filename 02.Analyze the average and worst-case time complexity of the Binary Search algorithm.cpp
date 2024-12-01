@@ -14,7 +14,7 @@ low = mid + 1;
 return -1;
 }
 int main() {
-int arr[] = {2, 4, 6, 8, 10};
+int arr[] = { 4, 5, 7, 13,16};
 int n = sizeof(arr) / sizeof(arr[0]);
 int target = 8;
 int result = binarySearch(arr, n, target);
