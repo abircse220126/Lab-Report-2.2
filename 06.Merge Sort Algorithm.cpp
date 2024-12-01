@@ -37,7 +37,7 @@ void mergeSort(int arr[], int left, int right) {
 }
 
 int main() {
-int arr[] = {38, 27, 43, 3, 9, 82, 10};
+int arr[] = {3, 7, 34, 23, 79, 82, 19};
 int n = sizeof(arr) / sizeof(arr[0]);
 cout << "Original array: ";
 for (int i = 0; i < n; i++)
